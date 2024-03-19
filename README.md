@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# OperateX [ERP System with React]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 1. Overview
 
-## Available Scripts
+This project is a simplified ERP (Enterprise Resource Planning) system interface developed using React. It allows users to manage key aspects of a business, including product listings and orders. The system consists of several pages, including a dashboard for system overview, product management, and order management. Additionally, it includes an optional feature - a calendar view for orders.
 
-In the project directory, you can run:
+## 2. Technology Stack
 
-### `npm start`
+- React: Front-end library for building modular components and managing application state.
+- React Router: For implementing navigation between different sections of the ERP system.
+- Mock Data: Utilized for simulating product listings and order details.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 3. Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone Repository:
+ ```bash
+git clone https://github.com/your-username/erp-system-react.git
+```
+2. Install Dependencies:
+ ```bash
+cd erp-system
+npm install
+```
+3. Running the Application
 
-### `npm test`
+```bash
+npm run start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+### Dashboard Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Provides an overview of key metrics and features with quick navigation links to product and order management pages.
+  
+![App Screenshot](https://github.com/Bankar-Swapnil/OperateX/blob/main/Screenshot/home.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Products Management Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Click on the "Products" link/button in the Dashboard to navigate to the Products Management page.
+  
+![App Screenshot](https://github.com/Bankar-Swapnil/OperateX/blob/main/Screenshot/p.png)
 
-### `npm run eject`
+- The Products Management page presents a list of products with details including name, category, price, and stock quantity.
+- You can add, edit, and delete products using the functionalities provided.
+  
+![App Screenshot](https://github.com/Bankar-Swapnil/OperateX/blob/main/Screenshot/p2.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Orders Management Page
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Navigate to the Orders Management page by clicking on the "Orders" link/button in the Dashboard.
+- The Orders Management page displays a list of orders with details such as order ID, customer name, order date, and status.
+  
+![App Screenshot](https://github.com/Bankar-Swapnil/OperateX/blob/main/Screenshot/o.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- View order details, update order status, and delete orders as required.
+  
+![App Screenshot](https://github.com/Bankar-Swapnil/OperateX/blob/main/Screenshot/o2.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Orders Calendar View
 
-## Learn More
+- If implemented, the Orders Calendar View provides a calendar interface displaying orders based on their expected delivery dates.
+  
+![App Screenshot](https://github.com/Bankar-Swapnil/OperateX/blob/main/Screenshot/c.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Contact Us View
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Click on the "Contact Us" link/button in the Dashboard to navigate to the Contact Us page.
+  
+![App Screenshot](https://github.com/Bankar-Swapnil/OperateX/blob/main/Screenshot/us.png)
 
-### Code Splitting
+### Setting Us View
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Click on the "Setting" link/button in the Dashboard to navigate to the Setting page.
+  
+![App Screenshot](https://github.com/Bankar-Swapnil/OperateX/blob/main/Screenshot/setting.png)
