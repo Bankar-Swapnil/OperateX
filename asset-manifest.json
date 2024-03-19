@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/OperateX/static/css/main.f83f2eed.css",
+    "main.js": "/OperateX/static/js/main.d5b15c6b.js",
+    "static/js/453.c73c7219.chunk.js": "/OperateX/static/js/453.c73c7219.chunk.js",
+    "index.html": "/OperateX/index.html",
+    "main.f83f2eed.css.map": "/OperateX/static/css/main.f83f2eed.css.map",
+    "main.d5b15c6b.js.map": "/OperateX/static/js/main.d5b15c6b.js.map",
+    "453.c73c7219.chunk.js.map": "/OperateX/static/js/453.c73c7219.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f83f2eed.css",
+    "static/js/main.d5b15c6b.js"
+  ]
+}
